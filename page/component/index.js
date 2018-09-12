@@ -34,7 +34,12 @@ Page({
         id: 'canvas',
         name: '画布',
         pages: ['canvas']
+      }, {
+        id: 'study',
+        name: '研究',
+        pages: ['life-cycle']
       }
+
     ]
   },
   kindToggle: function (e) {

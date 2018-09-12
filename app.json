@@ -32,6 +32,7 @@
     "page/component/pages/map/map",
 
     "page/component/pages/canvas/canvas",
+    "page/component/pages/life-cycle/life-cycle",
 
 
 

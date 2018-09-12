@@ -1,0 +1,16 @@
+<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />
+
+<view class="container">
+  <template is="head" data="{{title: '生命周期研究'}}"/>
+
+  <view class="id">当前id:{{id}}</view>
+  <view class="page-body">
+    <view class="btn-area">
+      <button bindtap="gotoNew1">跳转到新页面1</button>
+      <button bindtap="gotoNew2">跳转到新页面2</button>
+    </view>
+  </view>
+
+  <template is="foot" />
+</view>
